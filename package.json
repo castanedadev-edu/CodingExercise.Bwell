@@ -1,0 +1,31 @@
+{
+  "name": "coding-exercise-bwell",
+  "version": "1.0.0",
+  "description": "Take home QA task bwell",
+  "main": "index.js",
+  "scripts": {
+    "test:local": "node ./node_modules/selenium-cucumber-js/index.js -b firefox -s ./step_definitions",
+    "test:tag": "node ./node_modules/selenium-cucumber-js/index.js -b firefox -s ./step_definitions -t @signup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castanedadev-edu/CodingExercise.Bwell.git"
+  },
+  "keywords": [
+    "js",
+    "cucumber",
+    "selenium",
+    "sdet",
+    "chai"
+  ],
+  "author": "Rick C",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castanedadev-edu/CodingExercise.Bwell/issues"
+  },
+  "homepage": "https://github.com/castanedadev-edu/CodingExercise.Bwell#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^6.0.0-alpha.3",
+    "selenium-cucumber-js": "^1.8.1"
+  }
+}
